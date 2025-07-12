@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Eco-Friendly Toy Car</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="product-container">
+    <img src="car.jpg" alt="Ford Bronco Toy Car" class="product-image">
+    <h2>Ford Bronco Electric Ride-on Car</h2>
+    <p class="price">₹27,999</p>
+    <p class="feature">🔋 Dual Motor Powered | 2-Seater with Remote Control</p>
+    <button id="openModal">View Carbon Emission</button>
+  </div>
+
+  <!-- Modal Popup -->
+  <div id="carbonModal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h3>Eco Details</h3>
+      <p><strong>Carbon Emission Level:</strong> <span class="dot red"></span> High</p>
+      <p>This electric toy uses plastic and rechargeable battery materials which have a high environmental cost during production.</p>
+      <p>Suggestion: Explore alternatives made with recycled or biodegradable materials.</p>
+    </div>
+  </div>
+
+  <!-- Alternative Products Section -->
+  <h3 class="suggestion-heading">Eco-Friendly Alternatives You May Like</h3>
+  <div class="suggestions">
+    <div class="suggestion-card">
+      <img src="jeep.jpg" alt="Jeep Toy Car">
+      <h4>Jeep Wrangler Ride-on</h4>
+      <p class="price">₹23,499</p>
+      <p class="eco-tip"><span class="dot orange"></span> Medium Emissions</p>
+      <p class="reason">Uses less plastic & has manual driving option.</p>
+    </div>
+    <div class="suggestion-card">
+      <img src="wooden.jpg" alt="Wooden Push Car">
+      <h4>Wooden Push Car (Manual)</h4>
+      <p class="price">₹8,499</p>
+      <p class="eco-tip"><span class="dot green"></span> Low Emissions</p>
+      <p class="reason">Made of recycled wood. No battery needed.</p>
+    </div>
+    <div class="suggestion-card">
+      <img src="bike.jpg" alt="Electric Bike Toy">
+      <h4>Electric Sports Bike</h4>
+      <p class="price">₹13,999</p>
+      <p class="eco-tip"><span class="dot red"></span> High Emissions</p>
+      <p class="reason">Stylish, but similar battery-based plastic build.</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
